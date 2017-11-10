@@ -61,8 +61,8 @@
 	</dependencies>
 
 	<build>
-		<finalName>vraptor-blank-project</finalName>
-		<outputDirectory>c:\Users\Victor\vraptor4\vraptor-blank-project/src/main/webapp/WEB-INF/classes</outputDirectory>
+		<finalName>crud-project</finalName>
+		<!-- <outputDirectory>c:\Users\Victor\vraptor4\vraptor-blank-project/src/main/webapp/WEB-INF/classes</outputDirectory> -->
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
