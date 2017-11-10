@@ -2,7 +2,16 @@
 # Created by https://www.gitignore.io/api/eclipse,java-web,intellij,sublimetext
 
 ### Eclipse ###
-
+/target/
+.classpath
+.project
+.settings/
+/build/
+/bin/
+/PutObjectStoreDirHere/
+*.log
+*/**/*.log
+*.~lock*
 .metadata
 bin/
 tmp/
@@ -14,6 +23,25 @@ local.properties
 .settings/
 .loadpath
 .recommenders
+
+# compiled output
+/dist
+/tmp
+
+# dependencies
+/node_modules
+/bower_components
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/target/
+.checkstyle
+.eclipse-pmd
 
 # External tool builders
 .externalToolBuilders/
